@@ -1,0 +1,18 @@
+# Terraform local state and directories
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!example.tfvars
+override.tf
+overrides.tf
+_override.tf
+_overrides.tf
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Maven / Build artifacts (caso gere localmente)
+target/
+.class
